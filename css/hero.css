@@ -1,0 +1,211 @@
+.hero {
+    background: #F1EDE4;
+}
+
+.hero__content {
+    display: flex;
+}
+
+.hero__title {
+    font-family: Forum;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 53px;
+    color: #773A01;
+    padding-bottom: 35px;
+    max-width: 768px;
+}
+
+.hero__button {
+    font-family: Forum;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 40px;
+    color: #FFFFFF;
+    padding: 12px 32px 12px 32px;
+    background: #BB8A5A;
+    border-radius: 4px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+}
+
+.hero__list {
+    padding-left: 0;
+}
+
+.hero__suptitle {
+    font-family: Forum;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 35px;
+    color: #773A01;
+    padding-top: 63px;
+    padding-bottom: 64px;
+}
+
+.list__item {
+    display: flex;
+    align-items: center;
+    padding-bottom: 32px;
+}
+
+.list__item:last-child {
+    padding-bottom: 98px;
+}
+
+.hero__image {
+    height: 493px;
+    width: 404px;
+    padding-top: 120px;
+    padding-left: 138px;
+}
+
+.hero__image-circle {
+    position: absolute;
+    margin-left: 0;
+}
+
+.hero__images {
+    margin-top: 0;
+}
+
+.item__title {
+    font-family: Forum;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 26px;
+    font-feature-settings: 'liga' off;
+    color: #773A01;
+    padding-bottom: 8px;
+}
+
+.item__description {
+    font-family: Forum;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 18px;
+    font-feature-settings: 'liga' off;
+    color: #773A01;
+}
+
+.item_icon {
+    /* padding-right: 40px; */
+    margin: 0;
+}
+
+.item__text {
+    margin: 0;
+    margin-left: 20px;
+}
+
+.hero-image-adaptive {
+    display: none;
+    width: 100%;
+}
+
+@media all and (max-width: 1260px) {
+    .hero__description {
+        margin-top: 500px;
+    }
+    #hero-block {
+        top: 295px;
+    }
+}
+
+@media all and (max-width: 1101px) {
+    .philosophy__text {
+        flex-direction: column;
+        margin: 0;
+    }
+    .philosophy__text>div {
+        margin: 0;
+    }
+    .philosophy__text .col-6 {
+        width: 100%;
+    }
+}
+
+@media all and (max-width: 775px) {
+    #hero-block {
+        top: 355px;
+    }
+}
+
+@media all and (max-width: 610px) {
+    .hero__title {
+        font-size: 40px;
+    }
+    .hero__image-circle {
+        width: 500px;
+    }
+    .hero__image {
+        width: 300px;
+        height: 366px;
+    }
+    .hero__description {
+        margin-top: 410px;
+    }
+}
+
+@media all and (max-width: 510px) {
+    .hero__button {
+        font-size: 24px;
+        padding: 8px 28px;
+    }
+    .hero__image-circle {
+        width: 370px;
+        margin-left: 59px;
+    }
+    .hero__image {
+        width: 255px;
+        height: 270px;
+        padding-top: 90px;
+    }
+    .hero__description {
+        margin-top: 320px;
+    }
+    #hero-block {
+        top: 400px;
+        right: 40px !important;
+    }
+}
+
+@media all and (max-width: 375px) {
+    .hero__image-circle {
+        width: 300px;
+        margin-left: 59px;
+    }
+    .hero__image {
+        width: 200px;
+        height: 210px;
+        padding-top: 75px;
+    }
+    .hero__description {
+        margin-top: 275px;
+    }
+    #hero-block {
+        top: 430px;
+        right: 23px !important;
+    }
+}
+
+@media all and (max-width: 345px) {
+    #hero-block {
+        top: 470px;
+    }
+}
+
+@media all and (max-width: 338px) {
+    #hero-block {
+        top: 530px;
+    }
+    .benefits__item {
+        font-size: 24px !important;
+    }
+}

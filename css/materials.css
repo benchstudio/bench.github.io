@@ -1,0 +1,106 @@
+.materials__title {
+    font-family: Forum;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 40px;
+    font-feature-settings: 'liga' off;
+    color: #3C3838;
+    padding-bottom: 70px;
+    padding-top: 92px;
+}
+
+.materials__buttons {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: -10px;
+}
+
+.materials__proporties {
+    display: flex;
+}
+
+.materials__image {
+    padding-bottom: 28px;
+    width: 100%;
+}
+
+.materials__button {
+    font-family: Forum;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 26px;
+    color: #BB8A5A;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 10px;
+    border: none;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 4px rgba(119, 58, 1, 0.3);
+    border-radius: 4px;
+    padding: 12px 130px 12px 32px;
+    margin-bottom: 16px;
+}
+
+.material__description {
+    font-family: Forum;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 26px;
+    color: #773A01;
+    padding-bottom: 109px;
+}
+
+.material__right {
+    margin-left: 67px;
+    margin-top: -80px;
+}
+
+.materials__buttons-mobile {
+    display: none;
+    margin-bottom: 110px;
+    flex-wrap: wrap;
+}
+
+.materials__buttons-mobile button {
+    border: none;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 4px rgb(119 58 1 / 30%);
+    border-radius: 4px;
+    padding: 12px 45px 12px 45px;
+    font-size: 24px;
+    line-height: 26px;
+    color: #BB8A5A;
+}
+
+@media all and (max-width: 900px) {
+    .materials__buttons {
+        display: none;
+    }
+    .materials__buttons-mobile {
+        display: flex;
+    }
+}
+
+@media all and (max-width: 769px) {
+    .materials__buttons-mobile button {
+        padding: 12px 35px 12px 35px;
+        font-size: 16px;
+    }
+}
+
+@media all and (max-width: 554px) {
+    .materials__buttons-mobile button {
+        padding: 12px 15px 12px 15px;
+    }
+}
+
+@media all and (max-width: 350px) {
+    .materials__buttons-mobile button {
+        padding: 12px 8px 12px 8px;
+    }
+}

@@ -1,0 +1,73 @@
+.footer {
+    background: #F1EDE4;
+}
+
+.footer__container {
+    max-width: 1440px;
+    padding-top: 96px;
+    padding-bottom: 96px;
+}
+
+.footer__title {
+    width: 80%;
+    font-family: Forum;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 58px;
+    line-height: 64px;
+    color: #773A01;
+    padding-bottom: 58px;
+}
+
+.footer__input {
+    border: none;
+    border-bottom: 2px solid rgba(187, 138, 90, 0.17);
+    outline: none;
+    width: 257px;
+    background: transparent;
+}
+
+.last__input {
+    padding: 12px 32px;
+}
+
+.footer__block {
+    display: flex;
+}
+
+.footer__input {
+    margin-bottom: 0;
+}
+
+.footer__block button {
+    background: #fff;
+    padding: 15px 30px;
+    border: none;
+    color: #BB8A5A;
+    font-size: 16px;
+}
+
+@media all and (max-width: 863px) {
+    .footer__block {
+        flex-direction: column;
+    }
+    .footer__block>div {
+        margin: 30px 0;
+    }
+    .footer__container {
+        /* width: 80%; */
+    }
+    .footer__input {
+        width: 100%;
+    }
+}
+
+@media all and (max-width: 610px) {
+    .footer__title {
+        font-size: 40px;
+        padding-bottom: 10px;
+    }
+    .footer__container {
+        padding-bottom: 0;
+    }
+}

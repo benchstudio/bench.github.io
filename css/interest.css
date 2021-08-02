@@ -1,0 +1,53 @@
+.interest {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 65px;
+    background: url('../image/inside-weather-Uxqlfigh6oE-unsplash\ 1.png') top no-repeat;
+    height: 100%;
+    background-size: 100%;
+    padding-bottom: 150px ;
+}
+
+.interest__title {
+    font-family: Forum;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 40px;
+    font-feature-settings: 'liga' off;
+    color: #3C3838;
+    padding-bottom: 35px;
+}
+
+.interest__button {
+    font-family: Forum;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 24px;
+    color: #3C3838;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 30px;
+    padding: 19px 181px;
+    margin-bottom: 16px;
+}
+
+.interest__button:hover {
+    color: #FFFFFF;
+    background: #BB8A5A;
+    /* margin-bottom: 28px; */
+}
+
+.interest__img {
+    padding-bottom: 90px;
+    width: 100%;
+    max-width: 700px;
+}
+
+@media all and (max-width: 490px) {
+    .interest__button {
+        padding: 19px 100px;
+    }
+}

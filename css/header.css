@@ -1,0 +1,29 @@
+header {
+    background: #F1EDE4;
+    padding-top: 36px;
+    padding-bottom: 81px;
+    display: flex;
+}
+
+.header__content{
+    margin-left: auto;
+    margin-right: 92px;
+}
+
+.header__street{
+    font-family: Forum;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 15px;
+    color: #000000;
+}
+
+.header__number{
+    font-family: Lobster;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+}

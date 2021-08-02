@@ -1,0 +1,102 @@
+body.no-scroll {
+    overflow: hidden;
+}
+
+.modal {
+    display: none;
+    animation: modalZoom 0.4s ease;
+}
+
+.modal--active {
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 99;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.4);
+}
+
+@keyframes modalZoom {
+    0% {
+        opacity: 0;
+        transform: scale(0.6);
+        transition: all 0.5s;
+    }
+    100% {
+        transition: all 0.4s;
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+.modal__wrapper {
+    width: 746px;
+    height: 354px;
+    background: #eee2d7;
+    box-shadow: 2px 2px 4px rgba(119, 58, 1, 0.3);
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal__form {
+    display: flex;
+    flex-direction: column;
+}
+
+.modal__input {
+    width: 327px;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(20px);
+    border: 1px solid #ffffff;
+    box-sizing: border-box;
+    border-radius: 30px;
+    padding: 9px 0;
+    text-align: center;
+    font-size: 22px;
+    line-height: 24px;
+    color: #3c3838;
+    outline: none;
+    margin-bottom: 23px;
+}
+
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+.modal__input::placeholder {
+    font-size: 22px;
+    line-height: 24px;
+    color: #3c3838;
+}
+
+.modal__button {
+    background: #bb8a5a;
+    box-shadow: -6px -6px 16px rgba(255, 255, 255, 0.1), 6px 9px 40px rgba(187, 138, 90, 0.4);
+    border-radius: 30px;
+    font-family: Forum;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 24px;
+    color: #ffffff;
+    border: none;
+    margin-top: 38px;
+    padding: 10px 0;
+    cursor: pointer;
+    transition: all 0.4s;
+    width: 100%;
+}
+
+.modal__button:active {
+    transform: translateY(-10px);
+}

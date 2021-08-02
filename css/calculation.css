@@ -1,0 +1,126 @@
+.calculation__container {
+    max-width: 1960px;
+    margin: 0 auto;
+}
+
+.calculation__items {
+    display: flex;
+    justify-content: space-between;
+}
+
+.calculation__item {
+    width: 50%;
+}
+
+.calculation__img {
+    width: 100%;
+}
+
+.calculation__title {
+    font-family: Forum;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 38px;
+    line-height: 42px;
+    color: #773a01;
+    max-width: 444px;
+    padding-top: 110px;
+    padding-left: 137px;
+}
+
+.calculation__wrapper {
+    margin-top: 113px;
+    background: #ffffff;
+    box-shadow: 2px 2px 4px rgba(119, 58, 1, 0.3);
+    padding: 113px 116px 113px 88px;
+    /* transform: translateX(20px); */
+}
+
+.calculation__block {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.calculation__label {
+    font-family: Forum;
+    font-size: 24px;
+    line-height: 26px;
+    color: #000000;
+    width: 166px;
+    /* margin-right: 1px; */
+}
+
+.calculation__input {
+    border: none;
+    border-bottom: 2px solid rgba(187, 138, 90, 0.17);
+    outline: none;
+    width: 257px;
+    min-width: 165px;
+}
+
+.calculation__button {
+    background: #bb8a5a;
+    padding: 12px 32px;
+    border-radius: 4px;
+    font-size: 24px;
+    line-height: 26px;
+    color: #ffffff;
+    font-family: Forum;
+    outline: none;
+    border: none;
+    transition: all 0.3s;
+    margin: 30px 0 0 130px;
+}
+
+.calculation__button:active {
+    background: #744210;
+}
+
+@media all and (max-width: 1100px) {
+    .calculation__item:last-child {
+        display: none;
+    }
+    .calculation__item {
+        width: 100%;
+    }
+    .calculation__container {
+        width: 90%;
+    }
+    .calculation__title {
+        padding-left: unset;
+        padding-top: 0;
+    }
+    .calculation__wrapper {
+        margin-top: 30px;
+    }
+    .calculation__button-block {
+        width: 100%;
+        /* transform: translateX(20px); */
+        margin-top: 20px;
+        margin-bottom: 40px;
+    }
+    .calculation__button-block button {
+        width: 100%;
+        margin: 0;
+    }
+}
+
+@media all and (max-width: 767px) {
+    .calculation__block {
+        flex-direction: column;
+    }
+    .calculation__label {
+        margin: 0;
+    }
+    .calculation__input {
+        margin-top: 30px;
+        width: 100%;
+    }
+}
+
+@media all and (max-width: 375px) {
+    .calculation__wrapper {
+        padding-left: 65px;
+    }
+}

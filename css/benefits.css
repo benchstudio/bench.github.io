@@ -1,0 +1,83 @@
+.benefits {
+    padding-top: 92px;
+    padding-bottom: 73px;
+}
+
+.benefits__content {
+    display: flex;
+}
+
+.benefits__title {
+    font-family: Forum;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 40px;
+    color: #3C3838;
+    padding-bottom: 97px;
+}
+
+.benefits__list {
+    list-style: none;
+}
+
+.benefits, .benefits__item:before {
+    content: "—";
+    position: relative;
+    left: -15px;
+    color: #BB8A5A;
+    border-radius: 1px;
+}
+
+.first-col-6 {
+    margin-top: 0;
+}
+
+.benefits__item {
+    font-family: Forum;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 22px;
+    color: #3C3838;
+    padding-bottom: 48px;
+    margin-left: -25px;
+}
+
+.benefits__images img {
+    width: 100%;
+}
+
+/* .benefits__small-image {
+    position: relative;
+    bottom: -210px;
+}
+
+.benefits__big-image {
+    position: absolute;
+    margin-top: 30px;
+    margin-left: -75px;
+    z-index: -1;
+} */
+
+.benefits-mobile {
+    display: none;
+}
+
+@media all and (max-width: 925px) {
+    .benefits {
+        display: none;
+    }
+    .benefits-mobile {
+        display: block;
+    }
+    .benefits__item {
+        font-size: 35px;
+    }
+}
+
+@media all and (max-width: 585px) {
+    .benefits__item {
+        font-size: 25px;
+    }
+}

@@ -1,0 +1,56 @@
+.philosophy {
+    padding-bottom: 42px;
+}
+
+.philosophy__text {
+    display: flex;
+    justify-content: space-between;
+}
+
+.philosophy__title {
+    font-family: Forum;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 40px;
+    font-feature-settings: 'liga' off;
+    color: #3C3838;
+    padding-top: 92px;
+}
+
+.philosophy__description {
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 32px;
+    font-feature-settings: 'liga' off;
+    color: #3C3838;
+    padding-top: 64px;
+}
+
+.First__image {
+    padding-top: 28px;
+}
+
+.Second__image {
+    padding-top: 89px;
+}
+
+.Third__image {
+    padding-top: 230px;
+}
+
+.philosophy__images {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+@media all and (max-width: 530px) {
+    .philosophy__title {
+        padding-top: 48px;
+    }
+}
