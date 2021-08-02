@@ -28,6 +28,7 @@
 .stage__man {
     margin-left: 300px;
     margin-top: 114px;
+    margin-right: 400px;
 }
 
 .stage__title {
@@ -39,6 +40,7 @@
     font-feature-settings: 'liga' off;
     color: #3C3838;
     padding-bottom: 19px;
+    padding-left: 60px;
 }
 
 .stage__suptitle {
@@ -49,14 +51,26 @@
     line-height: 31px;
     color: #3C3838;
     padding-bottom: 111px;
+    padding-left: 60px;
 }
 
 .stage__item {
-    max-width: 50%;
-    list-style: decimal;
-    border-radius: 100px;
+    max-width: 70%;
+    list-style-type: none;
+    margin-bottom: 110px;
+    height: 100px;
+    margin-left: 0 !important;
+    width: 320px;
+    margin-right: 20px;
 }
-
+.stage__item div {
+    margin: 0 !important
+}
+.stage__item-flex {
+    display: flex;
+    justify-content: flex-start !important;
+    align-items: flex-start !important;
+}
 .stage__item-title {
     font-family: Forum;
     font-style: normal;
@@ -76,7 +90,6 @@
     line-height: 18px;
     font-feature-settings: 'liga' off;
     color: #3C3838;
-    padding-bottom: 90px;
 }
 
 .stage__list {
@@ -115,12 +128,22 @@
     text-align: center;
     background: #F4F5F7;
     border-radius: 50%;
-    border-radius: 50%;
     padding: 15px;
     font-size: 25px;
     /* margin: 10px 0; */
 }
-
+.stage__item-title__num {
+    display: inline-block;
+    width: 35px;
+    text-align: center;
+    background: #F4F5F7;
+    border-radius: 50%;
+    padding: 10px;
+    font-size: 25px;
+    margin-right: 10px !important;
+    margin-left: 0 !important;
+    margin-top: 0 !important;
+}
 .stages-mobile-list li>div:last-child {
     margin-left: 30px;
 }

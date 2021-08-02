@@ -23,7 +23,7 @@
 
 .materials__image {
     padding-bottom: 28px;
-    width: 100%;
+    width: 412px;
 }
 
 .materials__button {
@@ -85,7 +85,12 @@
         display: flex;
     }
 }
-
+@media all and (max-width: 840px){
+    .materials__image {
+        width: 60%;
+        min-width: 232px;
+    }
+}
 @media all and (max-width: 769px) {
     .materials__buttons-mobile button {
         padding: 12px 35px 12px 35px;
